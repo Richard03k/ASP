@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\somed\\source\\repos\\ASP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|c:\\users\\somed\\source\\repos\\asp\\asp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|solutionrelative:asp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|c:\\users\\somed\\source\\repos\\asp\\asp\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|solutionrelative:asp\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|c:\\users\\somed\\source\\repos\\asp\\asp\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|solutionrelative:asp\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|c:\\users\\somed\\source\\repos\\asp\\asp\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|solutionrelative:asp\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|c:\\users\\somed\\source\\repos\\asp\\asp\\pages\\main.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|solutionrelative:asp\\pages\\main.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|c:\\users\\somed\\source\\repos\\asp\\asp\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|solutionrelative:asp\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|c:\\users\\somed\\source\\repos\\asp\\asp\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|solutionrelative:asp\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|c:\\users\\somed\\source\\repos\\asp\\asp\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|solutionrelative:asp\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|c:\\users\\somed\\source\\repos\\asp\\asp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|solutionrelative:asp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,7 +42,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\somed\\source\\repos\\ASP\\ASP\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ASP\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\somed\\source\\repos\\ASP\\ASP\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ASP\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-12T23:55:09.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "DataBase.cs",
               "DocumentMoniker": "C:\\Users\\somed\\source\\repos\\ASP\\ASP\\DataBase.cs",
               "RelativeDocumentMoniker": "ASP\\DataBase.cs",
@@ -51,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\somed\\source\\repos\\ASP\\ASP\\Pages\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "ASP\\Pages\\Index.cshtml.cs",
@@ -64,33 +81,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\somed\\source\\repos\\ASP\\ASP\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "ASP\\Pages\\Index.cshtml",
               "ToolTip": "C:\\Users\\somed\\source\\repos\\ASP\\ASP\\Pages\\Index.cshtml",
               "RelativeToolTip": "ASP\\Pages\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAB1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-12T16:17:57.737Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Main.cshtml",
               "DocumentMoniker": "C:\\Users\\somed\\source\\repos\\ASP\\ASP\\Pages\\Main.cshtml",
               "RelativeDocumentMoniker": "ASP\\Pages\\Main.cshtml",
               "ToolTip": "C:\\Users\\somed\\source\\repos\\ASP\\ASP\\Pages\\Main.cshtml",
               "RelativeToolTip": "ASP\\Pages\\Main.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-12T16:08:34.516Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\somed\\source\\repos\\ASP\\ASP\\Program.cs",
               "RelativeDocumentMoniker": "ASP\\Program.cs",
