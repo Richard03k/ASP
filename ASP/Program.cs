@@ -35,3 +35,5 @@ app.UseAuthorization();
 app.MapRazorPages();
 
 app.Run();
+
+// skriven med mycket hjälp av AI
