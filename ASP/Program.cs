@@ -5,15 +5,17 @@ using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddDbContext<DataBase>(options =>
+builder.Services.AddDbContext<Database>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.AddScoped<AddUser>();
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options =>
 {
     options.SignIn.RequireConfirmedAccount = false;
     options.Password.RequireNonAlphanumeric = false;
 })
-    .AddEntityFrameworkStores<DataBase>();
+    .AddEntityFrameworkStores<Database>();
 
 builder.Services.AddRazorPages();
 

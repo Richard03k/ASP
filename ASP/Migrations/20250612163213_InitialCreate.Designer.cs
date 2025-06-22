@@ -11,7 +11,7 @@ using RazorAuthDemo.Data;
 
 namespace ASP.Migrations
 {
-    [DbContext(typeof(DataBase))]
+    [DbContext(typeof(Database))]
     [Migration("20250612163213_InitialCreate")]
     partial class InitialCreate
     {

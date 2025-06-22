@@ -10,13 +10,15 @@
 }
 else
 {
-    <div style="justify-self: center; align-items:center; background-color:white; display:flex; flex-direction:column; align-items:center; width:30%; margin:10% 0; height:65vh; border-radius:15px; justify-content:space-evenly;">
+    <div style="justify-self: center; align-items:center; background-color:white; display:flex; flex-direction:column; align-items:center; width:30%; margin:10% 0; height:65vh; border-radius:15px; justify-content:space-evenly;">      
         <p style="font-size:36px; font-weight:700">Create Account </p>
-        <input style="border-radius:8px; border-width:1px;" placeholder="Name">
-        <input style="border-radius:8px; border-width:1px;" placeholder="Email">
-        <input style="border-radius:8px; border-width:1px;" placeholder="Password">
-        <input style="border-radius:8px; border-width:1px;" placeholder="Password">
-        <button style="border-radius:8px; border-width:0px; background-color:deepskyblue" asp-page="/Account/Register">Create Account</button>
+        <form method="post">
+            <input asp-for="Name" style="border-radius:8px; border-width:1px;" placeholder="Name">
+        @* <input style="border-radius:8px; border-width:1px;" placeholder="Email"> *@
+            <input asp-for="Password" style="border-radius:8px; border-width:1px;" placeholder="Password">
+        @* <input style="border-radius:8px; border-width:1px;" placeholder="Password"> *@
+        <button style="border-radius:8px; border-width:0px; background-color:deepskyblue" asp-page="/Account/Register" type="submit">Create Account</button>
+        </form>
         <p>Already have an account? <a asp-page="/Account/Login">Login</a></p>
         @* or <a asp-page="/Account/Register">Register</a> to get started. *@
     </div>
