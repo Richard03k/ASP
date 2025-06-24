@@ -26,7 +26,7 @@ namespace RazorAuthDemo.Pages
             {
                 Console.WriteLine("OnPost");
                 // TODO: Sign in logic here
-                return RedirectToPage("/Welcome");
+                return RedirectToPage("/Main");
             }
             return Page();
         }
