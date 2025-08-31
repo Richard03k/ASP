@@ -3,6 +3,48 @@
 @{
     ViewData["Title"] = "Main Page";
 }
+<link rel="stylesheet" href="~/css/site.css" />
 
-<h2>Welcome, @User.Identity.Name!</h2>
-<p>This is your main page.</p>
+<div id="Main_body">
+<div id="Box_left">
+    <div id="Logo">
+		<img id="Loga1" src=""/>
+        <p id="Loga_text">alpha</p>
+    </div>    
+</div>
+
+<div id="Box_top">
+    <img id="Pfp" src=""/>
+</div>
+
+<div id="Box_middle">
+    <div id="middle_top">
+        <p id="proj_text">Projects</p>
+            <button>+ Add Project</button>
+    </div>
+@*     <div id="P_choice">
+        <p id="proj_select">ALL []</p>
+        <p id="proj_select"> STARTED []</p>
+        <p id="proj_select">COMPLETED []</p>
+    </div> *@
+    <div id="Project_cont">
+			@foreach (var item in Model.Projects)
+			{
+				<div id="Project_box">
+					<img id="Project_img" />
+					<p id="Project_title">@item.ProjectName</p>
+					<p id="Project_button">**</p>
+					<p id="Project_kund">@item.ClientName</p>
+					<p id="Project_desc">@item.Description</p>
+				</div>
+			})
+        @* <div id="Project_box"> *@
+        @*         <img id="Project_img" /> *@
+        @*         <p id="Project_title">Temporary</p> *@
+        @*         <p id="Project_button">**</p> *@
+        @*         <p id="Project_kund">google inc.</p> *@
+        @*         <p id="Project_desc">description goes here</p> *@
+        @*     </div> *@
+    </div>
+</div>
+</div>

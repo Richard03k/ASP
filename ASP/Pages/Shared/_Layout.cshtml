@@ -9,21 +9,14 @@
     <link rel="stylesheet" href="~/ASP.styles.css" asp-append-version="true" />
     @* skriven med hjälp as AI *@
 </head>
-<body style="background:lightgray">
+<body>
     <header>
 
     </header>
-    <div class="container" style="margin: 0; padding: 0;">
-        <main role="main" class="pb-3" style="margin: 0; padding: 0; width:100vw;">
-            @RenderBody()
-        </main>
-    </div>
 
-    @* <footer class="border-top footer text-muted"> *@
-    @*     <div class="container"> *@
-    @*         &copy; 2025 - ASP - <a asp-area="" asp-page="/Privacy">Privacy</a> *@
-    @*     </div>   *@
-    @* </footer> *@
+    @RenderBody()
+
+
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

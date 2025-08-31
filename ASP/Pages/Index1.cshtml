@@ -1,0 +1,20 @@
+﻿@page
+@model Index1Model
+@{
+
+}
+<link rel="stylesheet" href="~/css/site.css" />
+
+
+<div id="Login_box" style="height: 60%">
+    <p id="Text-36px-fw700">Login</p>
+    <form id="Input_form" method="post">
+        <p id="Input_text">Full Name</p>
+        <input asp-for="Name" id="Input_spot" placeholder="Name" />
+        <p id="Input_text">Password</p>
+        <input asp-for="Password" type="password" id="Input_spot" placeholder="Password" />
+        <button id="Login_submit" type="submit">Login</button>
+    </form>
+    <p id="start_s">Don't have an account? <a asp-page="/Index">Register</a></p>
+</div>
+

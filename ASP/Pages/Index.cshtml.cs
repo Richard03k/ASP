@@ -21,11 +21,9 @@ namespace RazorAuthDemo.Pages
 
         public IActionResult OnPost()
         {
-            Console.WriteLine("OnPost");
             if (UserAdd.Account(Name, Password))
             {
-                Console.WriteLine("OnPost");
-                // TODO: Sign in logic here
+               
                 return RedirectToPage("/Main");
             }
             return Page();

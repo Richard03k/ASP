@@ -9,6 +9,7 @@ builder.Services.AddDbContext<Database>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 builder.Services.AddScoped<AddUser>();
+builder.Services.AddScoped<AddProject>();
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options =>
 {
@@ -16,6 +17,12 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options =>
     options.Password.RequireNonAlphanumeric = false;
 })
     .AddEntityFrameworkStores<Database>();
+
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.LoginPath = "/Index1";
+});
+
 
 builder.Services.AddRazorPages();
 

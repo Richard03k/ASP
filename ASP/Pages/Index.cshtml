@@ -3,24 +3,20 @@
 @{
 
 }
+<link rel="stylesheet" href="~/css/site.css" />
 
-@if (User.Identity?.IsAuthenticated == true)
-{
-    <p>Hello, @User.Identity.Name!</p>
-}
-else
-{
-    <div style="justify-self: center; align-items:center; background-color:white; display:flex; flex-direction:column; align-items:center; width:30%; margin:10% 0; height:65vh; border-radius:15px; justify-content:space-evenly;">      
-        <p style="font-size:36px; font-weight:700">Create Account </p>
-        <form method="post">
-            <input asp-for="Name" style="border-radius:8px; border-width:1px;" placeholder="Name">
-        @* <input style="border-radius:8px; border-width:1px;" placeholder="Email"> *@
-            <input asp-for="Password" style="border-radius:8px; border-width:1px;" placeholder="Password">
-        @* <input style="border-radius:8px; border-width:1px;" placeholder="Password"> *@
-        <button style="border-radius:8px; border-width:0px; background-color:deepskyblue" asp-page="/Account/Register" type="submit">Create Account</button>
-        </form>
-        <p>Already have an account? <a asp-page="/Account/Login">Login</a></p>
-        @* or <a asp-page="/Account/Register">Register</a> to get started. *@
-    </div>
- 
-}
+<div id="Login_box">
+    <p id="Text-36px-fw700">Create Account </p>
+    <form id="Input_form" method="post">
+        <p id="Input_text">Full Name</p>
+        <input asp-for="Name" id="Input_spot" placeholder="Your full name">
+        <p id="Input_text">Email</p>
+        <input id="Input_spot" placeholder="Your email address">
+        <p id="Input_text">Password</p>
+        <input asp-for="Password" id="Input_spot" placeholder="Enter your Password">
+        <p id="Input_text"> Confirm Password</p>
+        <input id="Input_spot" placeholder="Confirm your Password">
+        <button id="Login_submit" asp-page="/Account/Register" type="submit">Create Account</button>
+    </form>
+    <p id="start_s">Already have an account? <a asp-page="/Index1">Login</a></p>
+</div>

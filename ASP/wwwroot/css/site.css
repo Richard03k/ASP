@@ -12,11 +12,172 @@ html {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
+p {
+    margin-bottom: 0px;
+}
+
 html {
   position: relative;
   min-height: 100%;
 }
 
 body {
-  margin-bottom: 60px;
+    background: #F1F3F7; /*byt*/
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+}
+
+#Login_box {
+    background-color: white;
+    width: 30%;
+    height: 80%;
+    place-self: center;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    grid-template-rows: 10% 10% 55% 15% 10%;
+    border-radius: 10px;
+}
+#Text-36px-fw700 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    grid-area: 2 / 2;
+}
+#Input_form {
+    grid-area: 3 / 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#Input_text {
+    font-size: 15px;
+    font-weight: 600;
+}
+#Input_spot {
+    border-radius: 10px;
+    height: 50px;
+    padding: 10px;
+    border-color: #EBEEF2;
+    border-width: 2px;
+    border-style: solid;
+}
+#Login_submit {
+    height: 50px;
+    border-radius: 10px;
+    border-width: 0px;
+    background-color: #2D99FF;
+    color: white;
+}
+#start_s {
+    grid-area: 5 / 2;
+    place-self: center;
+}
+
+
+#Main_body {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 7% 93%;
+    height: 100dvh;
+    background-color: #F1F3F7;
+}
+
+#Box_left {
+    grid-row: 1 / 3;
+    grid-column: 1;
+    border-right: #E3E5E8;
+    /* border-right-width: 1px; */
+    border-right-style: inset;
+}
+#Logo {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+#Loga1 {
+    width: 35px;
+    height: 35px;
+    margin: 20px;
+}
+#Loga_text {
+    width: fit-content;
+    font-size: 26px;
+}
+
+
+#Box_top {
+    grid-row: 1;
+    grid-column: 2;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    border-bottom-color: #E3E5E8;
+    /* border-bottom-width: 1px; */
+    border-bottom-style: inset;
+}
+#Pfp {
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+}
+
+#Box_middle {
+    grid-column: 2;
+    grid-row: 2;
+}
+#middle_top {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+#proj_text {
+    font-weight: bold;
+    font-size: 32px;
+}
+#P_choice {
+    display: flex;
+}
+#proj_select {
+    margin-left: 30px;
+}
+#Project_cont {
+    width: 95%;
+    height: 85%;
+    display: flex;
+    gap: 3%;
+    margin: 0 30px 0 30px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+#Project_box {
+    width: 30%;
+    height: 30%;
+    background-color: white;
+    border-radius: 16px;
+    display: grid;
+    grid-template-columns: 10% 20% 20% 20% 20% 10%;
+    grid-template-rows: 10% 15% 15% 60%;
+}
+#Project_img {
+    width: 56px;
+    height: 56px;
+    grid-area: 2 / 2 / 4;
+    align-self: center;
+}
+#Project_title {
+    grid-area: 2 / 3 / 2 / 6;
+}
+#Project_button {
+    grid-area: 2 / 5;
+    text-align: right;
+}
+#Project_kund {
+    grid-area: 3 / 3 / 3 / 5;
+}
+#Project_desc {
+    grid-area: 4 / 2 / 4 / 6;
 }
