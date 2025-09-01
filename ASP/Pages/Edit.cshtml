@@ -1,0 +1,23 @@
+﻿@page "/Edit"
+@model RazorAuthDemo.Pages.editModel
+@{
+
+}
+<link rel="stylesheet" href="~/css/site.css" />
+
+<div id="Login_box">
+    <p id="Text-36px-fw700">Create Account </p>
+    <form id="Input_form" method="post">
+        @* <p id="Input_text">Full Name</p> *@
+        @* <input asp-for="Name" id="Input_spot" placeholder="Your full name"> *@
+        <input asp-for="Project.ProjectName" id="Input_spot" placeholder="name">
+        <input asp-for="Project.ClientName" id="Input_spot" placeholder="Client">
+        <input asp-for="Project.Description" id="Input_spot" placeholder="Client">
+        <input asp-for="Project.StartDate" id="Input_spot" placeholder="Client">
+        <input asp-for="Project.EndDate" id="Input_spot" placeholder="Client">
+        <input asp-for="Project.Budget" id="Input_spot" placeholder="Client">
+        <input asp-for="Project.State" id="Input_spot" placeholder="State">
+
+        <button id="Login_submit" type="submit">edit</button>
+    </form>
+</div>

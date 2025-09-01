@@ -28,14 +28,14 @@
         <p id="proj_select">COMPLETED []</p>
     </div> *@
     <div id="Project_cont">
-			@foreach (var item in Model.Projects)
+			@foreach (var list in Model.Projects)
 			{
 				<div id="Project_box">
-					<img id="Project_img" />
-					<p id="Project_title">@item.ProjectName</p>
-					<p id="Project_button">**</p>
-					<p id="Project_kund">@item.ClientName</p>
-					<p id="Project_desc">@item.Description</p>
+					<img id="Project_img" value="@list.State"/>
+					<p id="Project_title">@list.ProjectName</p>
+					<p id="Project_button" asp-page="/Edit" asp-route-id="@list.ProjectID" >**</p>
+					<p id="Project_kund">@list.ClientName</p>
+					<p id="Project_desc">@list.Description</p>
 				</div>
 			})
         @* <div id="Project_box"> *@

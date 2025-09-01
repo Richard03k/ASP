@@ -1,4 +1,4 @@
-﻿@page
+﻿@page "/Create"
 @model RazorAuthDemo.Pages.CreateModel
 @{
 
@@ -16,6 +16,7 @@
         <input asp-for="StartDate" id="Input_spot" placeholder="Client">
         <input asp-for="EndDate" id="Input_spot" placeholder="Client">
         <input asp-for="Budget" id="Input_spot" placeholder="Client">
+        <input asp-for="State" id="Input_spot" placeholder="State">
 
         <button id="Login_submit" type="submit">Create</button>
     </form>

@@ -21,7 +21,9 @@ namespace RazorAuthDemo.Pages
         public string EndDate { get; set; }
         [BindProperty]
         public string Budget { get; set; }
-        
+        [BindProperty]
+        public string State { get; set; }
+
         private readonly AddProject ProjectAdd;
         public CreateModel(AddProject ProjAdd)
         {
@@ -29,7 +31,7 @@ namespace RazorAuthDemo.Pages
         }
         public IActionResult OnPost()
         {
-            var user = ProjectAdd.Projekt(Project_Name, Project_Client, Description, StartDate, EndDate, Budget);
+            var user = ProjectAdd.Projekt(Project_Name, Project_Client, Description, StartDate, EndDate, Budget, State);
 
             return RedirectToPage("/Main");
         }

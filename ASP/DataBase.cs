@@ -46,6 +46,7 @@ namespace RazorAuthDemo.Data
         public string StartDate { get; set; }
         public string EndDate { get; set; }
         public string Budget { get; set; }
+        public string State { get; set; }
     }
 
     public class AddProject
@@ -55,7 +56,7 @@ namespace RazorAuthDemo.Data
         {
             context = textcon;
         }
-        public bool Projekt(string projectname, string clientname, string description, string startdate, string enddate, string budget)
+        public bool Projekt(string projectname, string clientname, string description, string startdate, string enddate, string budget, string state)
         {
             var proj = new Project 
             { 
@@ -64,7 +65,8 @@ namespace RazorAuthDemo.Data
                 Description = description, 
                 StartDate = startdate, 
                 EndDate = enddate, 
-                Budget = budget 
+                Budget = budget,
+                State = state
             };
             context.Projects.Add(proj);
             return context.SaveChanges() > 0;
