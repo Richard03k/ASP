@@ -8,16 +8,36 @@
 <div id="Login_box">
     <p id="Text-36px-fw700">Create Account </p>
     <form id="Input_form" method="post">
-        @* <p id="Input_text">Full Name</p> *@
-        @* <input asp-for="Name" id="Input_spot" placeholder="Your full name"> *@
-        <input asp-for="Project.ProjectName" id="Input_spot" placeholder="name">
-        <input asp-for="Project.ClientName" id="Input_spot" placeholder="Client">
-        <input asp-for="Project.Description" id="Input_spot" placeholder="Client">
-        <input asp-for="Project.StartDate" id="Input_spot" placeholder="Client">
-        <input asp-for="Project.EndDate" id="Input_spot" placeholder="Client">
-        <input asp-for="Project.Budget" id="Input_spot" placeholder="Client">
+        <input type="hidden" asp-for="Project.ProjectID" />
+        <p id="Input_text">Project Name</p>
+        <input asp-for="Project.ProjectName" class="input-1" id="Input_spot" placeholder="Project Name">
+        <p id="Input_text">Client Name</p>
+        <input asp-for="Project.ClientName" class="input-2" id="Input_spot" placeholder="Client Name">
+        <p id="Input_text">Description</p>
+        <input asp-for="Project.Description" class="input-3" id="Input_spot" placeholder="Type Something">
+        <p id="Input_text">Start Date</p>
+        <input asp-for="Project.StartDate" class="input-4" id="Input_spot" placeholder="Start date">
+        <p id="Input_text">End Date</p>
+        <input asp-for="Project.EndDate" class="input-5" id="Input_spot" placeholder="End date">
+        <p id="Input_text">Budget</p>
+        <input asp-for="Project.Budget" class="input-6" id="Input_spot" placeholder="0">
         <input asp-for="Project.State" id="Input_spot" placeholder="State">
 
         <button id="Login_submit" type="submit">edit</button>
     </form>
 </div>
+<script>
+    function Emptycheck() {
+        let i = 1;
+        while(i <= 6) {
+            var name = ".input-" + i;
+            var check = document.querySelector(name).value;
+            if (check == "" || check == null) {
+                console.log("empty");
+                return false;
+                // make red where empty
+            }
+            i++;
+        }
+    }
+</script>

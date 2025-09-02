@@ -30,7 +30,6 @@ namespace RazorAuthDemo.Pages
             var project = Editpro.Projects.FirstOrDefault(p => p.ProjectID == Project.ProjectID);
             if (project != null)
             {
-                // Update properties
                 project.ProjectName = Project.ProjectName;
                 project.ClientName = Project.ClientName;
                 project.Description = Project.Description;

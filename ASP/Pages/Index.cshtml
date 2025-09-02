@@ -7,16 +7,41 @@
 
 <div id="Login_box">
     <p id="Text-36px-fw700">Create Account </p>
-    <form id="Input_form" method="post">
+    <form name="Form_regi" id="Input_form" method="post" onsubmit="return Emptycheck()" required>
         <p id="Input_text">Full Name</p>
-        <input asp-for="Name" id="Input_spot" placeholder="Your full name">
+        <input class="input-1" asp-for="Name" id="Input_spot" placeholder="Your full name">
         <p id="Input_text">Email</p>
         <input id="Input_spot" placeholder="Your email address">
         <p id="Input_text">Password</p>
-        <input asp-for="Password" id="Input_spot" placeholder="Enter your Password">
+        <input class="input-2" asp-for="Password" id="Input_spot" placeholder="Enter your Password">
         <p id="Input_text"> Confirm Password</p>
         <input id="Input_spot" placeholder="Confirm your Password">
         <button id="Login_submit" asp-page="/Account/Register" type="submit">Create Account</button>
     </form>
     <p id="start_s">Already have an account? <a asp-page="/Index1">Login</a></p>
+    <button onclick="return Emptycheck()" >check</button>
 </div>
+<script>
+    function Emptycheck() {
+        // var Name = document.forms["Form_regi"]["Pname"].value;
+        // if (Name == "" || Name == null) {
+        //     return false;
+        // }
+        let i = 1;
+        while(i <= 2) {
+			var name = ".input-" + i;
+            console.log(name);
+            // var check = document.forms["Form_regi"][name].value;
+            var check = document.querySelector(name).value;
+			console.log(check + " value");
+			if (check == "" || check == null) {
+                console.log("empty");
+
+				return false;
+				// make red where empty
+			}
+            console.log(i);
+			i++;
+        }
+    }
+</script>
