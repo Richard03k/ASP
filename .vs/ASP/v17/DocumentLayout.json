@@ -3,22 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\somed\\source\\repos\\ASP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|c:\\users\\somed\\source\\repos\\asp\\asp\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|solutionrelative:asp\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|c:\\users\\somed\\source\\repos\\asp\\asp\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|solutionrelative:asp\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|c:\\users\\somed\\source\\repos\\asp\\asp\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|solutionrelative:asp\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|c:\\users\\somed\\source\\repos\\asp\\asp\\pages\\index1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|solutionrelative:asp\\pages\\index1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|c:\\users\\somed\\source\\repos\\asp\\asp\\pages\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|solutionrelative:asp\\pages\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -27,31 +11,47 @@
       "RelativeMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|solutionrelative:asp\\pages\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|c:\\users\\somed\\source\\repos\\asp\\asp\\pages\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|solutionrelative:asp\\pages\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|c:\\users\\somed\\source\\repos\\asp\\asp\\pages\\main.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|solutionrelative:asp\\pages\\main.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|c:\\users\\somed\\source\\repos\\asp\\asp\\pages\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|solutionrelative:asp\\pages\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/RazorPagesAuthDb/True/SqlTable/dbo.Projects.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|c:\\users\\somed\\source\\repos\\asp\\asp\\pages\\main.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|solutionrelative:asp\\pages\\main.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|c:\\users\\somed\\source\\repos\\asp\\asp\\pages\\index1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|solutionrelative:asp\\pages\\index1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|c:\\users\\somed\\source\\repos\\asp\\asp\\pages\\index1.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|solutionrelative:asp\\pages\\index1.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|c:\\users\\somed\\source\\repos\\asp\\asp\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|solutionrelative:asp\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|c:\\users\\somed\\source\\repos\\asp\\asp\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|solutionrelative:asp\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|c:\\users\\somed\\source\\repos\\asp\\asp\\pages\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|solutionrelative:asp\\pages\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|c:\\users\\somed\\source\\repos\\asp\\asp\\pages\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|solutionrelative:asp\\pages\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|c:\\users\\somed\\source\\repos\\asp\\asp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|solutionrelative:asp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|c:\\users\\somed\\source\\repos\\asp\\asp\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|solutionrelative:asp\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|c:\\users\\somed\\source\\repos\\asp\\asp\\pages\\main.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|solutionrelative:asp\\pages\\main.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|c:\\users\\somed\\source\\repos\\asp\\asp\\pages\\main.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F63ABBF-E7F7-4A77-8F8D-619825E74607}|ASP\\ASP.csproj|solutionrelative:asp\\pages\\main.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/RazorPagesAuthDb/True/SqlTable/dbo.Projects.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     }
   ],
   "DocumentGroupContainers": [
@@ -61,7 +61,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 267,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -69,137 +69,137 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\somed\\source\\repos\\ASP\\ASP\\Pages\\Edit.cshtml",
               "RelativeDocumentMoniker": "ASP\\Pages\\Edit.cshtml",
               "ToolTip": "C:\\Users\\somed\\source\\repos\\ASP\\ASP\\Pages\\Edit.cshtml",
               "RelativeToolTip": "ASP\\Pages\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAAoAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-09-01T18:18:55.276Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Edit.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\somed\\source\\repos\\ASP\\ASP\\Pages\\Edit.cshtml.cs",
               "RelativeDocumentMoniker": "ASP\\Pages\\Edit.cshtml.cs",
               "ToolTip": "C:\\Users\\somed\\source\\repos\\ASP\\ASP\\Pages\\Edit.cshtml.cs",
               "RelativeToolTip": "ASP\\Pages\\Edit.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCcAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-01T18:18:59.906Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\somed\\source\\repos\\ASP\\ASP\\Pages\\Create.cshtml",
               "RelativeDocumentMoniker": "ASP\\Pages\\Create.cshtml",
               "ToolTip": "C:\\Users\\somed\\source\\repos\\ASP\\ASP\\Pages\\Create.cshtml",
               "RelativeToolTip": "ASP\\Pages\\Create.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAoAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-08-31T20:19:59.054Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "Create.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\somed\\source\\repos\\ASP\\ASP\\Pages\\Create.cshtml.cs",
               "RelativeDocumentMoniker": "ASP\\Pages\\Create.cshtml.cs",
               "ToolTip": "C:\\Users\\somed\\source\\repos\\ASP\\ASP\\Pages\\Create.cshtml.cs",
               "RelativeToolTip": "ASP\\Pages\\Create.cshtml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAswBwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-31T11:16:20.285Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Index1.cshtml",
               "DocumentMoniker": "C:\\Users\\somed\\source\\repos\\ASP\\ASP\\Pages\\Index1.cshtml",
               "RelativeDocumentMoniker": "ASP\\Pages\\Index1.cshtml",
               "ToolTip": "C:\\Users\\somed\\source\\repos\\ASP\\ASP\\Pages\\Index1.cshtml",
               "RelativeToolTip": "ASP\\Pages\\Index1.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-08-31T13:24:12.693Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 3,
               "Title": "Index1.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\somed\\source\\repos\\ASP\\ASP\\Pages\\Index1.cshtml.cs",
               "RelativeDocumentMoniker": "ASP\\Pages\\Index1.cshtml.cs",
               "ToolTip": "C:\\Users\\somed\\source\\repos\\ASP\\ASP\\Pages\\Index1.cshtml.cs",
               "RelativeToolTip": "ASP\\Pages\\Index1.cshtml.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAwwCkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-31T13:20:41.125Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Main.cshtml",
               "DocumentMoniker": "C:\\Users\\somed\\source\\repos\\ASP\\ASP\\Pages\\Main.cshtml",
               "RelativeDocumentMoniker": "ASP\\Pages\\Main.cshtml",
               "ToolTip": "C:\\Users\\somed\\source\\repos\\ASP\\ASP\\Pages\\Main.cshtml",
               "RelativeToolTip": "ASP\\Pages\\Main.cshtml",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAwCcAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAC0AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-12T16:08:34.516Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Main.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\somed\\source\\repos\\ASP\\ASP\\Pages\\Main.cshtml.cs",
               "RelativeDocumentMoniker": "ASP\\Pages\\Main.cshtml.cs",
               "ToolTip": "C:\\Users\\somed\\source\\repos\\ASP\\ASP\\Pages\\Main.cshtml.cs",
               "RelativeToolTip": "ASP\\Pages\\Main.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-31T19:58:36.421Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "DataBase.cs",
               "DocumentMoniker": "C:\\Users\\somed\\source\\repos\\ASP\\ASP\\DataBase.cs",
               "RelativeDocumentMoniker": "ASP\\DataBase.cs",
               "ToolTip": "C:\\Users\\somed\\source\\repos\\ASP\\ASP\\DataBase.cs",
               "RelativeToolTip": "ASP\\DataBase.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwCIAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAgwCYAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-28T21:18:14.434Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\somed\\source\\repos\\ASP\\ASP\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "ASP\\Pages\\Index.cshtml",
               "ToolTip": "C:\\Users\\somed\\source\\repos\\ASP\\ASP\\Pages\\Index.cshtml",
               "RelativeToolTip": "ASP\\Pages\\Index.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-08-31T13:31:45.438Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\somed\\source\\repos\\ASP\\ASP\\Pages\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "ASP\\Pages\\Index.cshtml.cs",
@@ -212,20 +212,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 8,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\somed\\source\\repos\\ASP\\ASP\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "ASP\\wwwroot\\css\\site.css",
               "ToolTip": "C:\\Users\\somed\\source\\repos\\ASP\\ASP\\wwwroot\\css\\site.css",
               "RelativeToolTip": "ASP\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAM0AAAAAAAAAAAAqwPMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-06-25T13:44:14.894Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "dbo.Projects [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/RazorPagesAuthDb/True/SqlTable/dbo.Projects.sql",
               "ToolTip": "dbo.Projects [Data]",

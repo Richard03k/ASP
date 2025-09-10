@@ -8,19 +8,19 @@
 <div id="Main_body">
 <div id="Box_left">
     <div id="Logo">
-		<img id="Loga1" src=""/>
+		<img id="Loga1" src="~/css/logo.png"/>
         <p id="Loga_text">alpha</p>
     </div>    
 </div>
 
 <div id="Box_top">
-    <img id="Pfp" src=""/>
+    <img id="Pfp" src="~/css/avatar.png"/>
 </div>
 
 <div id="Box_middle">
     <div id="middle_top">
         <p id="proj_text">Projects</p>
-            <button>+ Add Project</button>
+            <a asp-page="/Create" id="proj_Add" >+ Add Project</a>
     </div>
 @*     <div id="P_choice">
         <p id="proj_select">ALL []</p>
@@ -31,9 +31,15 @@
 			@foreach (var list in Model.Projects)
 			{
 				<div id="Project_box">
-					<img id="Project_img" value="@list.State"/>
-					<p id="Project_title">@list.ProjectName</p>
-					<a id="Project_button" asp-page="/Edit" asp-route-id="@list.ProjectID" >**</a>
+                    <img id="Project_img" class="Project_img" value="@list.State" src="~/css/Projec-img.png" />
+                    <p id="Project_title" >@list.ProjectName</p>
+                    <p id="Project_extend" onclick='extend(this)' class="button">..</p>
+                    <div id="Project_Cbutton" class="tracker">
+                        <a id="Project_button" asp-page="/Edit" asp-route-id="@list.ProjectID">Edit</a>
+                        <form method="post" id="Project_DelForm" asp-page-handler="Delete" asp-route-id="@list.ProjectID">
+                            <button id="Project_Delbutton" type="submit">Delete</button>
+                        </form>
+					</div>
 					<p id="Project_kund">@list.ClientName</p>
 					<p id="Project_desc">@list.Description</p>
 				</div>
@@ -48,3 +54,50 @@
     </div>
 </div>
 </div>
+<script>
+
+	var amount = @Model.Projects.Count;
+	var img = document.querySelectorAll(".Project_img");
+
+    function state() {
+        let i = 0;
+        while(i < amount) {
+            var value = img[i].getAttribute("value");
+			
+            if (value == 1)
+            {
+                document.img[i].src = "~/css/Done.png"
+				console.log("true");
+            }
+            else
+            {
+				console.log("false");
+            }
+            i++;
+        }
+    }
+    setTimeout(state(), 2000);
+    
+    function track() {
+            var change = document.querySelectorAll(".button");
+            var last = change.length - 1;
+            console.log(last);
+            change[last].setAttribute("onclick", "extend(" + last + ")");
+    }
+
+	function extend(track) {
+		console.log(track);
+        var elem = track.nextElementSibling;
+		console.log(elem);
+		
+        if (elem.style.zIndex === "-1")
+        {
+            elem.style.zIndex = "10";
+        }
+		else
+		{
+            elem.style.zIndex = "-1";
+		}
+	}
+
+</script>

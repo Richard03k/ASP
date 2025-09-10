@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FGQGlWd6QTUp9V8FeqRSe+TtCv/Co0E2hbE8KT3NP50=",
+  "Hash": "iyyvERN2DD08CjCi5bdI73U8bHtGhMTyyMB8SIvTzRc=",
   "Source": "ASP",
   "BasePath": "_content/ASP",
   "Mode": "Default",
@@ -1319,6 +1319,90 @@
       "OriginalItemSpec": "C:\\Users\\somed\\source\\repos\\ASP\\ASP\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ASP.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\somed\\source\\repos\\ASP\\ASP\\wwwroot\\css\\avatar.png",
+      "SourceId": "ASP",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\somed\\source\\repos\\ASP\\ASP\\wwwroot\\",
+      "BasePath": "_content/ASP",
+      "RelativePath": "css/avatar#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nta9r5k4zq",
+      "Integrity": "Cw5hdd/4pKVnf/13UOmU0O3CLMAcGz7W1QsNzxcCtNM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\avatar.png"
+    },
+    {
+      "Identity": "C:\\Users\\somed\\source\\repos\\ASP\\ASP\\wwwroot\\css\\Done.png",
+      "SourceId": "ASP",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\somed\\source\\repos\\ASP\\ASP\\wwwroot\\",
+      "BasePath": "_content/ASP",
+      "RelativePath": "css/Done#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "oaywl76c2n",
+      "Integrity": "YHkw/dta7euOwqgPcOjkl502Sde21qYJMv+D3zZscFM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Done.png"
+    },
+    {
+      "Identity": "C:\\Users\\somed\\source\\repos\\ASP\\ASP\\wwwroot\\css\\logo.png",
+      "SourceId": "ASP",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\somed\\source\\repos\\ASP\\ASP\\wwwroot\\",
+      "BasePath": "_content/ASP",
+      "RelativePath": "css/logo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "spb4e14abq",
+      "Integrity": "sLmNx/UXKoz9IODQy8naRcoJQVfZSojJIa3yw3V+2NI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\somed\\source\\repos\\ASP\\ASP\\wwwroot\\css\\Projec-img.png",
+      "SourceId": "ASP",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\somed\\source\\repos\\ASP\\ASP\\wwwroot\\",
+      "BasePath": "_content/ASP",
+      "RelativePath": "css/Projec-img#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "klutr8zdqd",
+      "Integrity": "KMvEWsD7eOZ+iTFIl5VR1XFRpixeMUnVeZI9fKPgZVg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Projec-img.png"
+    },
+    {
       "Identity": "C:\\Users\\somed\\source\\repos\\ASP\\ASP\\wwwroot\\css\\site.css",
       "SourceId": "ASP",
       "SourceType": "Discovered",
@@ -1333,8 +1417,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "5t1643a4tr",
-      "Integrity": "qV5jvmwc/Vsm0kgpp4en5/A2wUp6mNvfEeyhiErFflk=",
+      "Fingerprint": "h73ooguq5c",
+      "Integrity": "Pd69iQJNJO1MXeQNI9tvjTziHenLJHYhApxdE4D77nc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -2745,8 +2829,8 @@
       ]
     },
     {
-      "Route": "css/site.5t1643a4tr.css",
-      "AssetFile": "C:\\Users\\somed\\source\\repos\\ASP\\ASP\\wwwroot\\css\\site.css",
+      "Route": "css/avatar.nta9r5k4zq.png",
+      "AssetFile": "C:\\Users\\somed\\source\\repos\\ASP\\ASP\\wwwroot\\css\\avatar.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2755,19 +2839,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3322"
+          "Value": "47271"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/css"
+          "Value": "image/png"
         },
         {
           "Name": "ETag",
-          "Value": "\"qV5jvmwc/Vsm0kgpp4en5/A2wUp6mNvfEeyhiErFflk=\""
+          "Value": "\"Cw5hdd/4pKVnf/13UOmU0O3CLMAcGz7W1QsNzxcCtNM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 25 Jun 2025 23:24:37 GMT"
+          "Value": "Wed, 10 Sep 2025 15:26:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2777,15 +2861,298 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5t1643a4tr"
+          "Value": "nta9r5k4zq"
         },
         {
           "Name": "label",
-          "Value": "css/site.css"
+          "Value": "css/avatar.png"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-qV5jvmwc/Vsm0kgpp4en5/A2wUp6mNvfEeyhiErFflk="
+          "Value": "sha256-Cw5hdd/4pKVnf/13UOmU0O3CLMAcGz7W1QsNzxcCtNM="
+        }
+      ]
+    },
+    {
+      "Route": "css/avatar.png",
+      "AssetFile": "C:\\Users\\somed\\source\\repos\\ASP\\ASP\\wwwroot\\css\\avatar.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47271"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Cw5hdd/4pKVnf/13UOmU0O3CLMAcGz7W1QsNzxcCtNM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 10 Sep 2025 15:26:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Cw5hdd/4pKVnf/13UOmU0O3CLMAcGz7W1QsNzxcCtNM="
+        }
+      ]
+    },
+    {
+      "Route": "css/Done.oaywl76c2n.png",
+      "AssetFile": "C:\\Users\\somed\\source\\repos\\ASP\\ASP\\wwwroot\\css\\Done.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51135"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YHkw/dta7euOwqgPcOjkl502Sde21qYJMv+D3zZscFM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 10 Sep 2025 18:38:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oaywl76c2n"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Done.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YHkw/dta7euOwqgPcOjkl502Sde21qYJMv+D3zZscFM="
+        }
+      ]
+    },
+    {
+      "Route": "css/Done.png",
+      "AssetFile": "C:\\Users\\somed\\source\\repos\\ASP\\ASP\\wwwroot\\css\\Done.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51135"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YHkw/dta7euOwqgPcOjkl502Sde21qYJMv+D3zZscFM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 10 Sep 2025 18:38:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YHkw/dta7euOwqgPcOjkl502Sde21qYJMv+D3zZscFM="
+        }
+      ]
+    },
+    {
+      "Route": "css/logo.png",
+      "AssetFile": "C:\\Users\\somed\\source\\repos\\ASP\\ASP\\wwwroot\\css\\logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72173"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sLmNx/UXKoz9IODQy8naRcoJQVfZSojJIa3yw3V+2NI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 10 Sep 2025 15:27:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sLmNx/UXKoz9IODQy8naRcoJQVfZSojJIa3yw3V+2NI="
+        }
+      ]
+    },
+    {
+      "Route": "css/logo.spb4e14abq.png",
+      "AssetFile": "C:\\Users\\somed\\source\\repos\\ASP\\ASP\\wwwroot\\css\\logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72173"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sLmNx/UXKoz9IODQy8naRcoJQVfZSojJIa3yw3V+2NI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 10 Sep 2025 15:27:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "spb4e14abq"
+        },
+        {
+          "Name": "label",
+          "Value": "css/logo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sLmNx/UXKoz9IODQy8naRcoJQVfZSojJIa3yw3V+2NI="
+        }
+      ]
+    },
+    {
+      "Route": "css/Projec-img.klutr8zdqd.png",
+      "AssetFile": "C:\\Users\\somed\\source\\repos\\ASP\\ASP\\wwwroot\\css\\Projec-img.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66869"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KMvEWsD7eOZ+iTFIl5VR1XFRpixeMUnVeZI9fKPgZVg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 10 Sep 2025 15:42:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "klutr8zdqd"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Projec-img.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KMvEWsD7eOZ+iTFIl5VR1XFRpixeMUnVeZI9fKPgZVg="
+        }
+      ]
+    },
+    {
+      "Route": "css/Projec-img.png",
+      "AssetFile": "C:\\Users\\somed\\source\\repos\\ASP\\ASP\\wwwroot\\css\\Projec-img.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66869"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KMvEWsD7eOZ+iTFIl5VR1XFRpixeMUnVeZI9fKPgZVg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 10 Sep 2025 15:42:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KMvEWsD7eOZ+iTFIl5VR1XFRpixeMUnVeZI9fKPgZVg="
         }
       ]
     },
@@ -2800,7 +3167,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3322"
+          "Value": "5525"
         },
         {
           "Name": "Content-Type",
@@ -2808,11 +3175,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qV5jvmwc/Vsm0kgpp4en5/A2wUp6mNvfEeyhiErFflk=\""
+          "Value": "\"Pd69iQJNJO1MXeQNI9tvjTziHenLJHYhApxdE4D77nc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 25 Jun 2025 23:24:37 GMT"
+          "Value": "Wed, 10 Sep 2025 20:01:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2822,7 +3189,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-qV5jvmwc/Vsm0kgpp4en5/A2wUp6mNvfEeyhiErFflk="
+          "Value": "sha256-Pd69iQJNJO1MXeQNI9tvjTziHenLJHYhApxdE4D77nc="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.h73ooguq5c.css",
+      "AssetFile": "C:\\Users\\somed\\source\\repos\\ASP\\ASP\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5525"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Pd69iQJNJO1MXeQNI9tvjTziHenLJHYhApxdE4D77nc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 10 Sep 2025 20:01:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h73ooguq5c"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Pd69iQJNJO1MXeQNI9tvjTziHenLJHYhApxdE4D77nc="
         }
       ]
     },

@@ -8,7 +8,7 @@
 
 <div id="Login_box" style="height: 60%">
     <p id="Text-36px-fw700">Login</p>
-    <form id="Input_form" method="post">
+    <form id="Input_form" method="post" onsubmit="return Emptycheck()>
         <p id="Input_text">Full Name</p>
         <input asp-for="Name" class="input-1" id="Input_spot" placeholder="Name" />
         <p id="Input_text">Password</p>
@@ -21,14 +21,15 @@
     function Emptycheck() {
         let i = 1;
         while(i <= 2) {
-            var name = ".input-" + i;          
+            var name = ".input-" + i;            
             var check = document.querySelector(name).value;
             if (check == "" || check == null) {
-                console.log("empty");
+                var temp = document.querySelector(name);
+                temp.style.borderColor = "red";
                 return false;
-                // make red where empty
             }
             i++;
         }
+        return true;
     }
 </script>

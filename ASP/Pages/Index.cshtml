@@ -7,7 +7,7 @@
 
 <div id="Login_box">
     <p id="Text-36px-fw700">Create Account </p>
-    <form name="Form_regi" id="Input_form" method="post" onsubmit="return Emptycheck()" required>
+    <form name="Form_regi" id="Input_form" method="post" onsubmit="return Emptycheck()">
         <p id="Input_text">Full Name</p>
         <input class="input-1" asp-for="Name" id="Input_spot" placeholder="Your full name">
         <p id="Input_text">Email</p>
@@ -19,7 +19,7 @@
         <button id="Login_submit" asp-page="/Account/Register" type="submit">Create Account</button>
     </form>
     <p id="start_s">Already have an account? <a asp-page="/Index1">Login</a></p>
-    <button onclick="return Emptycheck()" >check</button>
+     <button onclick="return Emptycheck()" >check</button>
 </div>
 <script>
     function Emptycheck() {
@@ -36,12 +36,17 @@
 			console.log(check + " value");
 			if (check == "" || check == null) {
                 console.log("empty");
-
+                console.log(name);
+                var temp = document.querySelector(name);
+                console.log(temp);
+                temp.style.borderColor = "red";
+                // name.style.borderColor = "red";
 				return false;
 				// make red where empty
-			}
+			}   
             console.log(i);
 			i++;
         }
+        return true;
     }
 </script>
